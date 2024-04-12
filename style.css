@@ -55,11 +55,31 @@ body{
     position: absolute;
 }
 .buttonBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position:relative;
     height: 11rem;
     width: 11rem;
     border-radius: 11rem;
 }
+.button{
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 8rem;
+    box-shadow: 0px -5px 0px hsl(217, 16%, 65%);
+}
+.button img{
+    height: auto;
+    width: 60px;
+}
+
 .bg_blue{
     right: 50px;
     bottom: 50px;
