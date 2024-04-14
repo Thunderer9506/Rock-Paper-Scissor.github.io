@@ -69,17 +69,22 @@ body{
     border-radius: 11rem;
 }
 .button{
-	color: inherit;
+	/* color: inherit; */
 	border: none;
-	padding: 0;
-	font: inherit;
+	/* padding: 0; */
+	/* font: inherit; */
 	cursor: pointer;
 	outline: inherit;
     height: 8rem;
     width: 8rem;
     border-radius: 8rem;
-    box-shadow: 0px -5px 0px hsl(217, 16%, 65%);
+    box-shadow: 0px 5px 0px hsl(217, 16%, 65%);
 }
+.button:active {
+    box-shadow: 0 3px hsl(217, 16%, 50%);
+    transform: translateY(2px);
+  }
+
 .button img{
     height: auto;
     width: 60px;
@@ -106,24 +111,26 @@ body{
     background-color: hsl(349, 70%, 56%);
 }
 
-.rule{
+#rule{
     position: relative;
     left: 40%;
     color: white;
     border-radius: 10px;
     padding: 10px 40px 10px 40px;
     border: 2px solid white;
+    cursor: pointer;
+}
+#rule:hover{
+    background-color: hsl(237, 49%, 20%);
 }
 
-.rulesImage{
+#rulesImage{
     flex-direction: column;
     position: absolute;
     background-color: white;
     border-radius: 10px;
-    /* display: none; */
+    display: none;
     padding: 2rem;
-    /* justify-content: center; */
-    /* align-items: space-between; */
 }
 
 .rules p{
@@ -141,6 +148,11 @@ body{
 }
 
 .cross{
+    cursor: pointer;
     width: 30px;
-    box-shadow: 1px 1px 0px hsl(217, 16%, 45%);
+    box-shadow: 2px 2px 0px hsl(217, 16%, 45%);
+}
+
+.cross:active{
+    box-shadow: 1px 1px 0px hsl(217, 16%, 45%);;
 }
