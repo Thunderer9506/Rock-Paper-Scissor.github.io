@@ -57,9 +57,8 @@ body{
 }
 .bg_triangle{
     position: absolute;
-    left: 50%;
-    
 }
+
 .buttonBackground{
     display: flex;
     justify-content: center;
@@ -87,7 +86,7 @@ body{
 } 
 
 .bg_blue{
-    right: 13rem;
+    right: 14rem;
     bottom: 20.1rem;
     box-shadow: 0px 7px 0px hsl(230, 89%, 60%);
     background-color: hsl(230, 89%, 65%);
@@ -107,11 +106,41 @@ body{
     background-color: hsl(349, 70%, 56%);
 }
 
-.rules{
+.rule{
     position: relative;
     left: 40%;
     color: white;
     border-radius: 10px;
     padding: 10px 40px 10px 40px;
     border: 2px solid white;
+}
+
+.rulesImage{
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    /* display: none; */
+    padding: 2rem;
+    /* justify-content: center; */
+    /* align-items: space-between; */
+}
+
+.rules p{
+    color: hsl(217, 16%, 45%);
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.rules{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cross{
+    width: 30px;
+    box-shadow: 1px 1px 0px hsl(217, 16%, 45%);
 }
