@@ -78,6 +78,24 @@ body{
     border-radius: 11rem;
 }
 
+.winLose {
+    margin: 5rem 2rem 0rem 2rem;
+    text-align: center;
+    p{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0 0 2rem 0;
+}
+    .playAgain{
+        border: 1px solid white;
+        color: hsl(349, 71%, 52%);
+        padding: 0.5rem 0 0.5rem 0;
+        border-radius: 10px;
+        background-color: white;
+}
+
+}
+
 /* play area */
 .play{
     display: flex;
