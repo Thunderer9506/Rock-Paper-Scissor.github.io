@@ -184,9 +184,15 @@ body{
 
 /* rules area */
 #rule{
-    position: relative;
-    left: 40%;
+    display: flex;
+    position: fixed;
+    justify-content: end;
+    align-items: end;   
     border-radius: 10px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    bottom: 0px;
+    right: 0px;
     padding: 10px 40px 10px 40px;
     border: 2px solid white;
     cursor: pointer;
