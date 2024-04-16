@@ -59,7 +59,7 @@ If the player wins, they gain 1 point. If the computer wins, the player loses on
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/Thunderer9506/Rock-Paper-Scissor)]
 - Live Site URL: Localhost
 
 ## My process
@@ -101,4 +101,4 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 ## Author
 
 - Name - Shaurya Srivastava (INDIA)
-- Twitter - [@ShauryaSri88742yourusernam](https://www.twitter.com/yourusername)
+- Twitter - [@ShauryaSri88742](https://twitter.com/ShauryaSri88742)
