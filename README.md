@@ -1,7 +1,5 @@
 # Rock, Paper, Scissors solution
 
-This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH)
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -59,8 +57,8 @@ If the player wins, they gain 1 point. If the computer wins, the player loses on
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Thunderer9506/Rock-Paper-Scissor)]
-- Live Site URL: Localhost
+- Solution URL: [Rock-Paper-Scissor.github.io](https://thunderer9506.github.io/Rock-Paper-Scissor.github.io/)]
+- Local Site URL: Localhost
 
 ## My process
 
